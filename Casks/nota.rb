@@ -1,9 +1,9 @@
 cask "nota" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.9.59-beta"
-  sha256 arm:   "d784715303e01ff7724eaae3367f9751e4417e1cea6035268dae91d3645b82db",
-         intel: "fea6b6fb393dbdcaac55316b1aa3e34b19dce67f8bd4dd8626832d9f644acbd7"
+  version "0.9.60-beta"
+  sha256 arm:   "87c783268ca2ed7dbfb4df1a55c14c25f23926c86541595bc5d2f8f16583ef06",
+         intel: "11a4b95388c7d61fdc48bde14d1be94adfe5b3efc47bf90c143398dfab98c4db"
 
   url "https://github.com/Tsuzat/Nota/releases/download/release-v#{version}/Nota_#{version}_#{arch}.dmg"
   name "Nota"
